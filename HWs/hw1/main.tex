@@ -109,7 +109,21 @@ Provide clean proofs and calculations for the following problems.
  which means that there exists a non-zero constant c such that $Y = cX$ .
 
  \subsection{Answer}
- 
+
+ \subsection{Answer}
+ Conditional density formula: $f_{Y|X}(y|x) = \frac{f(x,y)}{f_X(x)}$, 
+ where $f_X(x)$ is the marginal density function of $X$: $f_X(x) = \int_{x}^{\infty} f(x,y)dy$.\\
+ Substituting the given joint density function $f(x,y)=\lambda^2 e^{-\lambda y}$ for $0\leq x \leq y<\infty$ into the expression:
+ $$f_{Y|X}(y|x) = \frac{\lambda^2 e^{-\lambda y}}{\int_{x}^{\infty} \lambda^2 e^{-\lambda y}dy}$$
+ $$f_{Y|X}(y|x) = \frac{\lambda^2 e^{-\lambda y}}{\frac{\lambda^2}{\lambda} e^{-\lambda x}}$$
+ $$f_{Y|X}(y|x) = \lambda e^{\lambda x -\lambda y} $$
+ So the conditional density function of $Y$ given $X$ is $\lambda e^{\lambda x -\lambda y} $
+
+
+
+
+
+
 
 
 
