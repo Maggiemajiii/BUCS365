@@ -109,6 +109,24 @@ Provide clean proofs and calculations for the following problems.
  which means that there exists a non-zero constant c such that $Y = cX$ .
 
  \subsection{Answer}
+ Using Marginal Probability Mass Function of $X$, $f_X{(x)} = \sum_{y} f(x,y)$ as $0\leq y\leq 9$ .\\
+ $$f_X{(x)} = log_{10}(1+\frac{1}{10x}) + log_{10}(1+\frac{1}{10x+1}) + \cdots  + log_{10}(1+\frac{1}{10x+9})$$
+ $$ f_X{(x)}= log_{10}(\frac{10x+1}{10x} \cdot \frac{10x+2}{10x+1} \dots \cdots \dots  \frac{10x+10}{10x+9} )$$
+ $$ f_X{(x)}= log_{10}(\frac{10x+10}{10x})$$
+ $$ f_X{(x)}= log_{10}(\frac{x+1}{x})$$
+To see whether digits 1 and 9 are equally likely to be the first digit, we just need to compare $f_X{(1)}$ and $f_X{(9)}$.\\
+Based on the formula above, $f_X{(1)} = log_{10}(2)$, while $ f_X{(9)}=log_{10}(\frac{10}{9})$, which is not equal.
+Therefore we can conclude that they are not equally likely to be the first digit. \\
+For expected value of X, we can use density function that $\mathbb{E}(X) = \sum_{x} x f_X{(x)}$, for $1\leq x\leq 9$. \\
+$$\mathbb{E}(X) = \sum_{1}^{9} x log_{10} (\frac{x+1}{x})$$
+$$\mathbb{E}(X) = 1 log_{10} (\frac{2}{1}) + 2 log_{10} (\frac{3}{2}) + 3 log_{10} (\frac{4}{3}) + \cdots + 9  log_{10} (\frac{10}{9}) $$
+$$\mathbb{E}(X) = log_{10}(2) - log_{10}(1) + 2log_{10}(3) - 2log_{10}(2) + 3log_{10}(4) - 3log_{10}(3) + \cdots + 9log_{10}(10) - 9log_{10}(9) $$
+$$\mathbb{E}(X) = -log_{10}(1) - log_{10}(2) - log_{10}(3) - \cdots - log_{10}(9) + 9log_{10}(10)$$
+$$\mathbb{E}(X) = 9- log_{10} (1 \cdot 2 \cdot 3 \cdots 9)$$
+$$\mathbb{E}(X) = 9 - 5.5524 = 3.4476.$$
+Therefore, the expected value of first digits is about 3.4476.
+
+
 
  \subsection{Answer}
  Conditional density formula: $f_{Y|X}(y|x) = \frac{f(x,y)}{f_X(x)}$, 
