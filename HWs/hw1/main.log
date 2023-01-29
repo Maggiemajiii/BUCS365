@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.27)  29 JAN 2023 13:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.27)  29 JAN 2023 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -571,6 +571,12 @@ Package fancyhdr Warning: \headheight is too small (40.0pt):
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./pipes.jpeg>]
+<bar_plot_with_error_bars_s1.png, id=66, 462.528pt x 346.896pt>
+File: bar_plot_with_error_bars_s1.png Graphic file (type png)
+<use bar_plot_with_error_bars_s1.png>
+Package pdftex.def Info: bar_plot_with_error_bars_s1.png  used on input line 74.
+(pdftex.def)             Requested size: 469.75502pt x 352.33655pt.
+
 
 Package fancyhdr Warning: \headheight is too small (40.0pt): 
 (fancyhdr)                Make it at least 41.68335pt, for example:
@@ -579,7 +585,15 @@ Package fancyhdr Warning: \headheight is too small (40.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.68335pt}.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 41.68335pt, for example:
+(fancyhdr)                \setlength{\headheight}{41.68335pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.68335pt}.
+
+[3 <./bar_plot_with_error_bars_s1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
@@ -590,13 +604,13 @@ Package fancyhdr Warning: \headheight is too small (40.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.68335pt}.
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 116--121
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 124--129
 
  []
 
 
-Overfull \hbox (15.31801pt too wide) detected at line 123
+Overfull \hbox (15.31801pt too wide) detected at line 131
 \U/msb/m/n/12 E\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (2) \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (1) + 2\OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (3) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (2) + 3\OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (4) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 3\OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (3) + [] + 9\OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (10) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 9\OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (9)
  []
 
@@ -607,7 +621,7 @@ Package fancyhdr Warning: \headheight is too small (40.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.68335pt}.
 
-[4] 
+[5] 
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (40.0pt): 
@@ -616,23 +630,23 @@ Package fancyhdr Warning: \headheight is too small (40.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.68335pt}.
 
-[5] (./main.aux)
+[6] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B1FA63F87E3DE7376CC48A902538997F;1216.
  ) 
 Here is how much of TeX's memory you used:
- 20245 strings out of 478268
- 374648 string characters out of 5846347
- 654681 words of memory out of 5000000
- 38092 multiletter control sequences out of 15000+600000
+ 20258 strings out of 478268
+ 375034 string characters out of 5846347
+ 652725 words of memory out of 5000000
+ 38103 multiletter control sequences out of 15000+600000
  478873 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,12n,107p,645b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (5 pages, 187949 bytes).
+Output written on main.pdf (6 pages, 190337 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 188 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
