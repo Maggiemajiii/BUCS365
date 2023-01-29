@@ -10,7 +10,7 @@ def generate_number():
     return "".join(digits)
 
 def one_sim_s1():
-    key = 2022
+    key = '2022'
     count = 0
     attempt = ""
     while(attempt != key):
@@ -20,6 +20,7 @@ def one_sim_s1():
             print("success\n")
     return count
 
+
 def sim(nsim):
     trials_record = []
     for i in range(nsim):
@@ -28,6 +29,7 @@ def sim(nsim):
         i +=1
     sd = statistics.stdev(trials_record)
     ave = statistics.mean(trials_record)
+    print(sd, ave, '\n')
     return ave, sd
 
 nsims = [i for i in range(100, 1001, 100)]
@@ -39,7 +41,14 @@ for j in nsims:
     ave_s1.append(cave)
     sd_s1.append(csd)
 
-labels = [str(i) for i in nsims]
+
+plt.errorbar(nsims, ave_s1, yerr=sd_s1, fmt='o', color='red', ecolor='black', capsize=5)
+plt.xlabel('Number of Simulations')
+plt.ylabel('Average Number of Trials')
+plt.title('Plot s1 with Error Bars')
+plt.show()
+file_path = '/Users/maggie-z/Github/BUCS365/HWs/hw1/bar_plot_with_error_bars_s1.png'
+plt.savefig(file_path)
 
 
 
