@@ -101,7 +101,16 @@ Provide clean proofs and calculations for the following problems.
  independent of the score shown by the first die.
 
  \subsection{Answer}
+ Based on Cauchy-Schwarz inequality, for any two vectors x and y in a Euclidean space,
+ $(x\cdot y)^2 \leq x^2 y^2$. Now considering $X, Y$ as two vectors, 
+ and the dot product of X and Y is given by the expected value of $XY$. Therefore,
+ $(\mathbb{E}(XY))^2 <= (\mathbb{E}(X^2))(\mathbb{E}(Y^2))$. \\
+ The equality holds when $X$ and $Y$ are linearly dependent, 
+ which means that there exists a non-zero constant c such that $Y = cX$ .
+
+ \subsection{Answer}
  
+
 
 
   \section{Coding [30 points]}
