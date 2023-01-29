@@ -1,5 +1,6 @@
 import random
 import statistics
+import matplotlib.pyplot as plt
 
 def generate_number():
     digits = []
@@ -28,6 +29,20 @@ def sim(nsim):
     sd = statistics.stdev(trials_record)
     ave = statistics.mean(trials_record)
     return ave, sd
+
+nsims = [i for i in range(100, 1001, 100)]
+print(nsims)
+ave_s1 = []
+sd_s1 = []
+for j in nsims:
+    cave, csd = sim(j)
+    ave_s1.append(cave)
+    sd_s1.append(csd)
+
+labels = [str(i) for i in nsims]
+
+
+
 
 
 
