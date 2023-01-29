@@ -71,12 +71,13 @@ for j in nsims:
     sd_s2.append(csd2)
 
 
-plt.errorbar(nsims, ave_s1, yerr=sd_s1, fmt='o', color='red', ecolor='black', capsize=5)
+plt.errorbar(nsims, ave_s2, yerr=sd_s2, fmt='o', color='red', ecolor='black', capsize=5)
 plt.xlabel('Number of Simulations')
 plt.ylabel('Average Number of Trials')
-plt.title('Plot s1 with Error Bars')
-plt.savefig('s1plot.jpeg')
+plt.title('Plot s2 with Error Bars')
+plt.savefig('s2plot.jpeg')
 plt.show()
+
 
 
 
