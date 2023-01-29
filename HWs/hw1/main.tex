@@ -92,8 +92,18 @@ Provide clean proofs and calculations for the following problems.
 \end{tcolorbox}
 
  \subsection{Answer}
+ Two events A and B are independent if and only if $P(A|B) = P(A)$\\
+ Rolling two dice, let A be the event that the sum of the two dice is 7 and
+ B be the event that the first die shows a score $x$. \\
+ Therefore, $P(A) = 6/36 = 1/6$ and since the second die can only show one score to get a sum of 7,
+ $P(A \vert B = x) = \frac{P(A\cap B)}{P(B)} = \frac{1/36}{1/6} =1/6$, where $x$ can be 1,2,3,4,5,6.
+ In this way, $P(A) = P(A \vert B)$, which proves that the event that the sum of two dice being 7 is
+ independent of the score shown by the first die.
 
+ \subsection{Answer}
  
+
+
   \section{Coding [30 points]}
 
   The coding part of the homework is available on Git \href{https://github.com/tsourolampis/cs365-spring23/tree/main/hw1}{here}\footnote{https://github.com/tsourolampis/cs365-spring23/blob/main/hw1/HW1coding.ipynb}. Follow the instructions in the Jupyter notebook. After finishing it, download the notebook in \textbf{PDF format}, which should include all the code and figures. If you have trouble converting it to PDF, you can download it as HTML, and then save it as PDF. Submit the math problems and coding problems \textbf{separately in two files} through Gradescope.
