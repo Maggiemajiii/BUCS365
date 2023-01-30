@@ -83,6 +83,31 @@ while using s2 strategies, we need to run about 5000 trails to get the right PIN
 \end{figure}
 
 \subsection{Answer}
+ $i)$ $ s1 $ follows a geometric distribution with the probability of successfully generate the right PIN 
+ equals $\frac{1}{10^4}$, so $X_1 \backsim G(\frac{1}{10^4})$. Based on the properties of geometric distribution, the expected values of the 
+ number of trails used untill sucess is $\mathbb{E} (X_1) = \frac{1}{p} = 10^4 = 10000$. \\
+ $ii)$  
+ \begin{tabular}{c|c}
+	$X_2$  & $P(X_2)$ \\
+	\hline
+	1 & $\frac{1}{10^4}$ \\
+	2 & $\frac{1}{10^4}$ \\
+	3 & $\frac{1}{10^4}$\\
+	$\cdots$ & $\cdots$ \\
+	9999 & $\frac{1}{10^4}$\\
+	10000 & $\frac{1}{10^4}$ \\
+	\end{tabular}
+	\\
+$\mathbb{E} (X_2) = \sum_{x=1}^{10000} x \cdot \frac{1}{10000} 
+= \frac{1}{10000} \sum_{x=1}^{10000} x 
+= \frac{1}{10000} \cdot \frac{(1+10000) \cdot 10000}{2} 
+= \frac{1}{2} \cdot (1 + 10000) = 5000.5$
+
+\subsection{Answer}
+
+
+
+
 
 
 \newpage 
