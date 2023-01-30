@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.27)  29 JAN 2023 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.27)  29 JAN 2023 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,7 +605,7 @@ Package fancyhdr Warning: \headheight is too small (40.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.68335pt}.
 
 [3 <./s1plot.jpeg> <./s2plot.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
@@ -617,12 +617,12 @@ Package fancyhdr Warning: \headheight is too small (40.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.68335pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 157--162
+Underfull \hbox (badness 10000) in paragraph at lines 162--167
 
  []
 
 
-Overfull \hbox (15.31801pt too wide) detected at line 164
+Overfull \hbox (15.31801pt too wide) detected at line 169
 \U/msb/m/n/12 E\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (2) \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (1) + 2\OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (3) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (2) + 3\OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (4) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 3\OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (3) + [] + 9\OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (10) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 9\OML/cmm/m/it/12 log[]\OT1/cmr/m/n/12 (9)
  []
 
@@ -655,7 +655,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  104i,12n,107p,645b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (6 pages, 253805 bytes).
+Output written on main.pdf (6 pages, 255823 bytes).
 PDF statistics:
  200 PDF objects out of 1000 (max. 8388607)
  155 compressed objects within 2 object streams

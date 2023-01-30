@@ -104,8 +104,13 @@ $\mathbb{E} (X_2) = \sum_{x=1}^{10000} x \cdot \frac{1}{10000}
 = \frac{1}{2} \cdot (1 + 10000) = 5000.5$
 
 \subsection{Answer}
-
-
+Markov's Inequality: $P(X \geq a) \leq \frac{\mathbb{E}[X]}{a}$ \\ 
+for i), $P(X_1 \geq 7000) \leq \frac{10000}{7000}$, which means $P(X_1 \geq 7000) \leq 1.42857$.
+However, based on the axiom of probability, the probability of any event is a number between 0 and 1, inclusive.
+So the Markov's Inequality gives us no meaningful interpretation for s1 strategy. \\
+for ii), $P(X_2 \geq 7000) \leq \frac{5000.5}{7000}$, which means $P(X_2 \geq 7000) \leq 0.715$.
+In this case, the Markov's Inequality gives us meaningful bound that the probability of number of trails under strategy s2 goes
+over 7000 is less than or equal to about 0.715.
 
 
 
