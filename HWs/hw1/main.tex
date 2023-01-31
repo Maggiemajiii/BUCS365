@@ -6,21 +6,6 @@
 \rhead{CS365 Spring '23 \\ Foundations of Data Science \\ Assignment 1} 
 \cfoot{\thepage\ of \pageref{LastPage}}
 
-
-\section*{Instructions}
-\framebox{%
-	\begin{minipage}{0.9\linewidth}
-		\begin{itemize}
-			\item The homework is due on \underline{{\bf Friday 2/3 at 5pm ET}}.  
-			\item There are 3 paper-pencil-like problems and 1 coding problem. 
-            \item LaTeX is recommended but hand-written solutions will be accepted as long as they are legible. The coding part and the associated text should be coded in the Jupyter notebook provided to you on the class Git repo. 
-			\item No extension will be provided, unless for serious documented reasons.
-			\item {\bf Start early!}
-			\item Study the material taught in class, and feel free to do so in small groups, but the solutions should be a product of your own work. 
-			\item This  is not a multiple choice homework;   reasoning, and mathematical proofs are required before giving your final answer.
-		\end{itemize}
-\end{minipage}}
-
 Name: Caiwei Zahng, BUID: U97031910
 
 \section{Is there a path from $s$ to $t$? [15 points]}  
@@ -42,8 +27,25 @@ Consider the network shown in Figure~\ref{fig:pipes}. Recall that $p_i$ is the p
 \end{tcolorbox}
 
 \subsection{Answer}
+In terms of saving lifetime, I will simple use $pi$ as the expression for $p_i$ for all pipe i.\\
+P(water can go from s to t) = 1 - P(water fails to go from s to t). Therefore, the problem simplifies to P(pipes fails that influence 
+water to go from s to t).\\
+Case 1: one pipe fails. $$p = 0$$ \\
+Case 2: two pipes fail.\\
+$$p = p1p3 + p2p4$$\\
+Case 3: three pipes fail. \\
+$$p = p1p3(p2 + p5 + p4) + p2p4(p1 + p3 + p5) + p1p4p5 + p2p3p5$$\\
+Case 4: four pipes fail. \\
+$$p = p1p3(p2p5 + p2p4 + p4p5) + p2p4(p1p3 + p1p5 + p3p5) - p1p2p3p4$$
+Case 5: all five pipes fail. \\
+$$p = p1p2p3p4p5$$
+Therefore, the sum of $p$ equals P(pipes fails that influence 
+water to go from s to t), and \\
+$P(water can go from s to t) = 1- [(p1p3 + p2p4) \\
++ (p1p3(p2 + p5 + p4)+ p2p4(p1 + p3 + p5) + p1p4p5 + p2p3p5) \\
++ (p1p3(p2p5 + p2p4 + p4p5) + p2p4(p1p3 + p1p5 + p3p5) - p1p2p3p4)\\
++ p1p2p3p4p5]$
 
-\newpage 
 
 \section{PIN Cracker [30 Points] } 
 John has a cell phone with a PIN that consists of 4 digits (0-9). Unfortunately John totally forgot his PIN, but at least he can try PIN numbers as many times as he wants to without blocking the device.  He applies the following two strategies\footnote{In reality, there exist better strategies to break a PIN \url{https://www.popsci.com/technology/article/2012-09/infographic-day-fastest-way-crack-4-digit-pin-number/}, but let's assume we employ only naive strategies here.}:
